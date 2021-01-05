@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project activeEnvironment="Default environment" compositeProjectFormat="1.3" created="3.4.5" encryptionMode="Not encrypted" id="ca0f2e82-a2a4-43d8-bffe-0c137f56b7f1" name="Composite" resourceRoot="" updated="3.5.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project activeEnvironment="Default environment" compositeProjectFormat="1.3" created="3.4.5" encryptionMode="Not encrypted" id="ca0f2e82-a2a4-43d8-bffe-0c137f56b7f1" name="Composite" resourceRoot="" updated="3.4.5" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="ca0f2e82-a2a4-43d8-bffe-0c137f56b7f1fileName">Composite</con:setting>
   </con:settings>
