@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource id="7390cab1-292b-48b6-a7a7-73e343b4e1ed" name="GETAllUsers" path="/api/users" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="7390cab1-292b-48b6-a7a7-73e343b4e1ed" name="GETAllUsers" path="/api/users" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="7390cab1-292b-48b6-a7a7-73e343b4e1edfileName">GETAllUsers</con:setting>
   </con:settings>
