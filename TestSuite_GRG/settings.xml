@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="dc9a8eb2-942b-4fb0-b191-1b12a6a90669" name="TestSuite_GRG" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="dc9a8eb2-942b-4fb0-b191-1b12a6a90669fileName">TestSuite_GRG</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
