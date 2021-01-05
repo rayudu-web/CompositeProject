@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="GETAllUsers" path="/api/users" id="7390cab1-292b-48b6-a7a7-73e343b4e1ed" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:resource id="7390cab1-292b-48b6-a7a7-73e343b4e1ed" name="GETAllUsers" path="/api/users" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="7390cab1-292b-48b6-a7a7-73e343b4e1edfileName">GETAllUsers</con:setting>
   </con:settings>
@@ -11,19 +11,19 @@
       <con:default>3</con:default>
     </con:parameter>
   </con:parameters>
-  <con:resource name="GETUsersById" path="2" id="4d970c56-f1e3-47b1-bda5-b06860a3ab2a">
+  <con:resource id="4d970c56-f1e3-47b1-bda5-b06860a3ab2a" name="GETUsersById" path="2">
     <con:settings/>
     <con:parameters/>
-    <con:method name="Method 1" id="a4160d73-4564-48b3-9340-83933b9a4b03" method="GET">
+    <con:method id="a4160d73-4564-48b3-9340-83933b9a4b03" method="GET" name="Method 1">
       <con:settings/>
       <con:parameters/>
       <con:representation type="RESPONSE">
         <con:mediaType>application/json; charset=utf-8</con:mediaType>
         <con:status>200</con:status>
         <con:params/>
-        <con:element xmlns:ns="https://reqres.in/api/users/2">ns:Response</con:element>
+        <con:element>ns:Response</con:element>
       </con:representation>
-      <con:request name="Request 1" id="90647647-2ccd-4b52-94a4-97125ce29612" mediaType="application/json">
+      <con:request id="90647647-2ccd-4b52-94a4-97125ce29612" mediaType="application/json" name="Request 1">
         <con:settings/>
         <con:endpoint>https://reqres.in</con:endpoint>
         <con:request/>
@@ -41,7 +41,7 @@
       </con:request>
     </con:method>
   </con:resource>
-  <con:method name="GET All Users" id="0f01633d-2f9c-4178-b96f-7ca9f7e08bde" method="GET">
+  <con:method id="0f01633d-2f9c-4178-b96f-7ca9f7e08bde" method="GET" name="GET All Users">
     <con:settings/>
     <con:parameters>
       <con:parameter required="true">
@@ -49,17 +49,17 @@
         <con:value>2</con:value>
         <con:style>QUERY</con:style>
         <con:default>2</con:default>
-        <con:path xsi:nil="true"/>
-        <con:description xsi:nil="true"/>
+        <con:path/>
+        <con:description/>
       </con:parameter>
     </con:parameters>
     <con:representation type="RESPONSE">
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element>
+      <con:element>user:Response</con:element>
     </con:representation>
-    <con:request name="Request 1" id="a499ad8f-e749-4008-950b-0b060ecda8f8" mediaType="application/json">
+    <con:request id="a499ad8f-e749-4008-950b-0b060ecda8f8" mediaType="application/json" name="Request 1">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
       </con:settings>
@@ -81,10 +81,10 @@
       </con:parameterOrder>
     </con:request>
   </con:method>
-  <con:method name="GETUseDelay" id="00d0daa6-a80d-4120-b81b-71de67e318cf" method="GET">
+  <con:method id="00d0daa6-a80d-4120-b81b-71de67e318cf" method="GET" name="GETUseDelay">
     <con:settings/>
     <con:parameters/>
-    <con:request name="Request 1" id="f2f84c77-d10d-43da-b33b-78306635b071" mediaType="application/json">
+    <con:request id="f2f84c77-d10d-43da-b33b-78306635b071" mediaType="application/json" name="Request 1">
       <con:settings/>
       <con:endpoint>https://reqres.in</con:endpoint>
       <con:request/>

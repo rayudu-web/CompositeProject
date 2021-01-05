@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" id="78221720-f865-4c94-a8e1-c8235f94f203" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" id="5705b175-296b-40a0-bbab-982f57d265bc" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
-    <con:setting id="78221720-f865-4c94-a8e1-c8235f94f203fileName">TestCase-1</con:setting>
+    <con:setting id="5705b175-296b-40a0-bbab-982f57d265bcfileName">TestCase-1</con:setting>
   </con:settings>
-  <con:testStep id="c5edbf7e-2da7-42ba-983f-24567a70945a" name="UserDelay" type="restrequest">
+  <con:testStep id="86506c0e-f97c-4cfa-b4dd-ab85a15fcb6c" name="REST Request" type="restrequest">
     <con:settings/>
-    <con:config xsi:type="con:RestRequestStep" methodName="Method 1" resourcePath="/api/users/2" service="https://reqres.in" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <con:restRequest id="90647647-2ccd-4b52-94a4-97125ce29612" mediaType="application/json" name="UserDelay">
+    <con:config xsi:type="con:RestRequestStep" methodName="GET All Users" resourcePath="/api/users" service="https://reqres.in" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest id="a499ad8f-e749-4008-950b-0b060ecda8f8" mediaType="application/json" name="REST Request">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
         <con:endpoint>https://reqres.in</con:endpoint>
         <con:request/>
-        <con:originalUri>https://reqres.in/api/users/2</con:originalUri>
-        <con:assertion id="200849fd-6539-4ffd-b85b-be5ac3c9e57d" name="Valid HTTP Status Codes" type="Valid HTTP Status Codes">
+        <con:originalUri>https://reqres.in/api/users</con:originalUri>
+        <con:assertion id="8254a7ba-f023-4ca0-b951-e8a36cc83978" name="Valid HTTP Status Codes" type="Valid HTTP Status Codes">
           <con:settings/>
           <con:configuration>
             <codes>200</codes>
           </con:configuration>
         </con:assertion>
-        <con:assertion disabled="true" id="5843f630-e50f-4f16-b9b9-fa054fe8cb1f" name="Response SLA" type="Response SLA Assertion">
+        <con:assertion id="956c46ec-901d-40d3-b82e-789ffe2d66d2" name="Response SLA" type="Response SLA Assertion">
           <con:configuration>
             <SLA>200</SLA>
           </con:configuration>
@@ -31,8 +31,10 @@
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:parameters>
           <con:entry key="delay" value="3"/>
+          <con:entry key="page" value="2"/>
         </con:parameters>
         <con:parameterOrder>
+          <con:entry>page</con:entry>
           <con:entry>delay</con:entry>
         </con:parameterOrder>
       </con:restRequest>
