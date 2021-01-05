@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="e6bf7465-e99f-4d83-ab2e-082dec484bb6" name="TestSuite_HMB_0001B" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e6bf7465-e99f-4d83-ab2e-082dec484bb6fileName">TestSuite_HMB_0001B</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
